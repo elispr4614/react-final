@@ -48,7 +48,7 @@ function App() {
     setCount(0);
   };
   const getSVGGraphic = () => {
-      if (count < 10) {
+      if (count <= 10) {
       return <svg width="2000" height="1000">
       <rect x="992" y="50" width="310" height="80" fill="green" stroke="yellow" />
 
